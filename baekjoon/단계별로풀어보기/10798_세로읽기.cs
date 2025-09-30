@@ -4,7 +4,7 @@ class Program
 {
     static void Main()
     {
-        string[] words = new string[5];  // 5줄 고정
+        string[] words = new string[5];  
         int max = 0;
 
         // 입력 받기
@@ -26,7 +26,7 @@ class Program
         {
             for (int j = 0; j < 5; j++)
             {
-                if (words[j].Length<i+1)   // 문자열 길이 체크
+                if (words[j].Length<i+1) 
                 {
                     continue;
                 }
